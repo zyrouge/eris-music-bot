@@ -1,5 +1,13 @@
 # Eris Music Bot
 
+#### Requirements & Steps
+* This Project
+* Node.js Installed
+* Discord Bot Token, YouTube v3 API Key, Genius Token (Optional), Owner ID (Optional)
+* Edit the `.env` file
+* Run `npm i` once in Terminal to install Dependencies
+* Run `node src/index.js` to ***RUN*** the bot.
+
 #### Features & Info
 * Loop - Queue and Track
 * Inbuild Lyrics Command
