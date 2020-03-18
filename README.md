@@ -3,7 +3,8 @@
 #### Requirements & Steps
 * This Project
 * Node.js Installed
-* Discord Bot Token, YouTube v3 API Key, Genius Token (Optional), Owner ID (Optional)
+* Discord Bot Token, YouTube v3 API Key, Prefix, Genius Token (Optional), Owner ID (Optional)
+* Changable Prefix
 * Edit the `.env` file
 * Run `npm i` once in Terminal to install Dependencies
 * Run `node src/index.js` to ***RUN*** the bot.
