@@ -1,10 +1,11 @@
 module.exports = async (client) => {
   
-    if(!process.env) throw new Error('No ENV file was Found! [https://github.com/zyrouge/eris-music-bot]');
-    if(!process.env.TOKEN || process.env.TOKEN == "") throw new Error('No Discord Token was Found! [https://github.com/zyrouge/eris-music-bot]');
-    if(!process.env.YTTOKEN || process.env.YTTOKEN == "") throw new Error('No YouTube Token was Found! [https://github.com/zyrouge/eris-music-bot]');
-    if(!process.env.GENIUS || process.env.GENIUS == "") console.log('No Genius Token was Found! Lyrics command will not Work! [https://github.com/zyrouge/eris-music-bot]');
-    if(!process.env.OWNER || process.env.OWNER == "") console.log('No Discord Token was Found! Eval, Execute, Reload command will not Work! [https://github.com/zyrouge/eris-music-bot]');
+    if(!process.env) throw new Error('No ENV file was Found in env! [https://github.com/zyrouge/eris-music-bot]');
+    if(!process.env.TOKEN || process.env.TOKEN == "") throw new Error('No Discord Token was Found in env! [https://github.com/zyrouge/eris-music-bot]');
+    if(!process.env.PREFIX || process.env.PREFIX == "") throw new Error('No Prefix was Found in env! [https://github.com/zyrouge/eris-music-bot]');
+    if(!process.env.YTTOKEN || process.env.YTTOKEN == "") throw new Error('No YouTube Token was Found in env! [https://github.com/zyrouge/eris-music-bot]');
+    if(!process.env.GENIUS || process.env.GENIUS == "") console.log('No Genius Token was Found in env! Lyrics command will not Work! [https://github.com/zyrouge/eris-music-bot]');
+    if(!process.env.OWNER || process.env.OWNER == "") console.log('No Discord Token was Found in env! Eval, Execute, Reload command will not Work! [https://github.com/zyrouge/eris-music-bot]');
 
     const fs = require("fs");
     const path = require("path");
