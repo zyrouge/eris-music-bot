@@ -21,3 +21,8 @@
 * Search
 * Shuffle
 * Stop
+
+#### Requires
+* YouTube Key
+* Discord Token
+* Genius Token for Lyrics
