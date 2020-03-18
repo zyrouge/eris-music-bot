@@ -15,7 +15,7 @@ module.exports = class {
             return;
         }
         let prefix = await this.client.db.get(`prefix_${message.channel.guild.id}`);
-        if(!prefix) prefix = `w?`;
+        if(!prefix) prefix = process.env.PREFIX;
         if(message.content.indexOf(prefix) !== 0) return;
         this.client.prefix = prefix;
         const args = message.content.slice(prefix.length).split(/\s+/g);
