@@ -37,7 +37,7 @@ class help extends Command {
                     },
                     {
                         name: `Aliases`,
-                        value: `${command.help.aliases.map(alias => `\`${alias}\``).join(", ")}`,
+                        value: `${command.help.aliases.map(alias => `\`${alias}\``).join(", ") || "None"}`,
                         inline: false
                     }
                 ],
